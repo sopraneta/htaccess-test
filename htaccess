@@ -1,2 +1,6 @@
-# BEGIN sb_htaccess_gitops_bridge
+
+# BEGIN sb_htaccess_gitops_bridge — DO NOT EDIT MANUALLY
+# Managed by sb_htaccess_gitops_bridge module. Changes here will be overwritten.
+# Redirect temporal blog legacy
+Redirect 301 /test-old https://universidadviu.com/blog/
 # END sb_htaccess_gitops_bridge
