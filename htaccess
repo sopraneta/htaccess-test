@@ -1,2 +1,5 @@
-# BEGIN sb_htaccess_gitops_bridge
+
+# BEGIN sb_htaccess_gitops_bridge — DO NOT EDIT MANUALLY
+# Managed by sb_htaccess_gitops_bridge module. Changes here will be overwritten.
+Redirect 301 /test-pro https://example.com/test-pro
 # END sb_htaccess_gitops_bridge
