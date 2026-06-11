@@ -4,4 +4,5 @@
 Redirect 301 /test-pro https://example.com/test-pro
 Redirect 301 /test-import-1 https://example.com/dest-1
 Redirect 302 /test-import-2 https://example.com/dest-2
+Redirect 301 /prueba-manual https://example.com/prueba
 # END sb_htaccess_gitops_bridge
