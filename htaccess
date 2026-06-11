@@ -4,6 +4,4 @@ Redirect 302 /test-import-2 https://example.com/dest-2
 # BEGIN sb_htaccess_gitops_bridge — DO NOT EDIT MANUALLY
 # Managed by sb_htaccess_gitops_bridge module. Changes here will be overwritten.
 Redirect 301 /test-pro https://example.com/test-pro
-Redirect 301 /test-import-1 https://example.com/dest-1
-Redirect 302 /test-import-2 https://example.com/dest-2
 # END sb_htaccess_gitops_bridge
