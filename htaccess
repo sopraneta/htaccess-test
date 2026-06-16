@@ -6,4 +6,6 @@ Redirect 301 /test-import-1 https://example.com/dest-1
 Redirect 302 /test-import-2 https://example.com/dest-2
 Redirect 301 /prueba-manual https://example.com/prueba
 Redirect 301 /prueba-pro https://example.com/pro-enmendar
+# Redirección prueba
+Redirect 301 /old-url https://qax.pre.universidadviu.com
 # END sb_htaccess_gitops_bridge
