@@ -12,4 +12,5 @@ Redirect 301 /prueba-viejo https://qax.pre.universidadviu.com/prueba-nuevo
 Redirect 301 /prueba-qa-old https://qax.pre.universidadviu.com/prueba-qa-new
 # Redirección prueba 2
 Redirect 301 /old-url https://example.com/test-pro
+Redirect 301 /test-prueba-old https://qax.pre.universidadviu.com/test-prueba
 # END sb_htaccess_gitops_bridge
