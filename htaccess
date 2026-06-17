@@ -8,7 +8,8 @@ Redirect 301 /prueba-manual https://example.com/prueba
 Redirect 301 /prueba-pro https://example.com/pro-enmendar
 Redirect 301 /old-url https://qax.pre.universidadviu.com
 Redirect 301 /test-old https://qax.pre.universidadviu.com/test-new
-Redirect 301 /prueba-viejo https://qax.pre.universidadviu.com/prueba-nuevo
 # Redirección prueba 4
 Redirect 301 /prueba-qa-old https://qax.pre.universidadviu.com/prueba-qa-new
+# Redirección prueba
+Redirect 301 /prueba-viejo https://example.com/test-pro
 # END sb_htaccess_gitops_bridge
