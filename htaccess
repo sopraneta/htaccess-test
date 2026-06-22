@@ -13,4 +13,5 @@ Redirect 301 /prueba-qa-old https://qax.pre.universidadviu.com/prueba-qa-new
 # Redirección prueba 2
 Redirect 301 /old-url https://example.com/test-pro
 Redirect 307 /prueba-url-vieja-webhook https://qax.pre.universidadviu.com/prueba-url-nueva-webhook
+Redirect 307 /prueba-url-vieja-webhook-2 https://qax.pre.universidadviu.com/prueba-url-nueva-webhook-2
 # END sb_htaccess_gitops_bridge
