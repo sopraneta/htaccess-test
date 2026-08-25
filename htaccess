@@ -17,6 +17,4 @@ Redirect 307 /prueba-url-vieja-webhook https://qax.pre.universidadviu.com/prueba
 RewriteCond %{HTTP_HOST} != ^old\.com$
 # Redirigir página antigua a nueva
 Redirect 301 /viejo.html /nuevo.html
-# Redirect old blog URL to new location
-Redirect 301 /old-blog /new-blog
 # END sb_htaccess_gitops_bridge
