@@ -91,7 +91,7 @@ AddEncoding gzip svgz
   RewriteRule ^robots\.txt$ robots_disallow.txt [L]
 
   # Exclude some subdomains
-  RewriteCond %{HTTP_HOST} 
+  RewriteCond %{HTTP_HOST} ^cdn.universidadviu.com$ [NC,OR]
   RewriteCond %{HTTP_HOST} ^prosb.universidadviu.com$ [NC,OR]
   RewriteCond %{HTTP_HOST} ^pre.pre.universidadviu.com$ [NC,OR]
   RewriteCond %{HTTP_HOST} ^portalpracticas.universidadviu.com$ [NC,OR]
@@ -307,7 +307,7 @@ AddEncoding gzip svgz
   Redirect 301 /co/actualidad/nuestros-expertos/descubre-un-ejemplo-de-metodo-cientifico /co/actualidad/noticias
   Redirect 301 /es/master-en-industria-40-transformacion-industrial-digital /es/master-industria-4-transformacion-digital
   Redirect 301 /int/actualidad/nuestros-expertos/trastornos-alimenticios-tipos-y-caracteristicas-esenciales /es/actualidad/nuestros-expertos/trastornos-alimenticios-tipos-y-caracteristicas-esenciales
-  Redirect 301 
+  Redirect 301 /es/es/defensor-universitario /es/defensor-universitario
   Redirect 301 /es/actualidad/nuestros-expertos/software-de-virtualizacion-que-es /es/actualidad/nuestros-expertos/los-tipos-de-software-y-sus-diferencias-que-debemos-conocer
   Redirect 301 /es/actualidad/nuestros-expertos/las-claves-tener-en-cuenta-del-software-para-ingenieros /es/actualidad/nuestros-expertos/los-tipos-de-software-y-sus-diferencias-que-debemos-conocer
   Redirect 301 /es/actualidad/nuestros-expertos/buenas-practicas-en-educacion-inclusiva /es/actualidad/nuestros-expertos/caracteristicas-y-buenas-practicas-para-la-educacion-inclusiva
